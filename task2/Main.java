@@ -27,6 +27,7 @@ public class Main{
         else{
             System.out.println("Cannot be");
         }
-        sc.nextLine();
+        
+        System.out.println("");
     }
 }

@@ -1,4 +1,5 @@
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -28,6 +29,9 @@ public class Main{
             }
         }
 
+        System.out.println(Arrays.toString(array));
+
         System.out.println("Rises - " + (array[0] < array[1]));
+        System.out.println("");
     }
 }
